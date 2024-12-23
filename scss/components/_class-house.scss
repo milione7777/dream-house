@@ -26,7 +26,7 @@
 .class-item-1 {
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("/img/elite.png");
+    url("./../img/elite.png");
   width: 640px;
   height: 1080px;
   padding-top: 200px;
@@ -34,14 +34,14 @@
 
 .class-item-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("/img/vip.png");
+    url("./../img/vip.png");
   width: 640px;
   height: 1080px;
 }
 
 .class-item-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("/img/extra.png");
+    url("./../img/extra.png");
   width: 640px;
   height: 1080px;
 }

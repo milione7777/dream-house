@@ -198,7 +198,7 @@ li {
 }
 
 .header {
-  background-image: url(/img/section-1.png);
+  background-image: url(./../img/section-1.png);
   width: 1920px;
   height: 1080px;
   padding-top: 20px;
@@ -488,7 +488,7 @@ li {
 }
 
 .about-us {
-  background-image: url(/img/section-2.png);
+  background-image: url(./../img/section-2.png);
   width: 1920px;
   height: 1080px;
   padding-top: 20px;
@@ -586,20 +586,20 @@ li {
 
 .class-item-1 {
   display: flex;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/img/elite.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("./../img/elite.png");
   width: 640px;
   height: 1080px;
   padding-top: 200px;
 }
 
 .class-item-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/img/vip.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("./../img/vip.png");
   width: 640px;
   height: 1080px;
 }
 
 .class-item-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/img/extra.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("./../img/extra.png");
   width: 640px;
   height: 1080px;
 }
@@ -753,7 +753,7 @@ li {
 .area-size {
   width: 1920px;
   height: 1080px;
-  background-image: url(/img/section-4.png);
+  background-image: url(./../img/section-4.png);
   margin: 0 auto;
   padding-top: 185px;
 }
@@ -941,7 +941,7 @@ body {
   stroke: #ff9900;
   stroke-width: 2;
   fill: transparent;
-  stroke-dasharray: 440; /* Довжина кола: 2 * π * r (2 * 3.14 * 70) */
+  stroke-dasharray: 440;
   stroke-dashoffset: 440;
   transition: stroke-dashoffset 1s ease-in-out;
 }
@@ -1001,7 +1001,7 @@ body {
 }
 
 .step {
-  background-image: url(/img/section-6.png);
+  background-image: url(./../img/section-6.png);
   width: 1920px;
   height: 1080px;
   padding-top: 200px;

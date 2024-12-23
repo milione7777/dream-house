@@ -1,7 +1,7 @@
 .area-size {
   width: 1920px;
   height: 1080px;
-  background-image: url(/img/section-4.png);
+  background-image: url(./../img/section-4.png);
   margin: 0 auto;
   padding-top: 185px;
 }
@@ -190,7 +190,7 @@ body {
   stroke: #ff9900;
   stroke-width: 2;
   fill: transparent;
-  stroke-dasharray: 440; /* Довжина кола: 2 * π * r (2 * 3.14 * 70) */
+  stroke-dasharray: 440;
   stroke-dashoffset: 440;
   transition: stroke-dashoffset 1s ease-in-out;
 }
