@@ -1,0 +1,155 @@
+.step {
+  background-image: url(/img/section-6.png);
+  width: 1920px;
+  height: 1080px;
+  padding-top: 200px;
+}
+
+.container-step {
+  display: flex;
+  align-items: start;
+}
+
+.title-step {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 4px;
+  margin-left: auto;
+  width: 1010px;
+}
+
+.name-svg-step {
+  width: 270px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+}
+
+.answer-step {
+  width: 400px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 70px;
+}
+
+.list-steps {
+  display: flex;
+  align-items: center;
+  height: 240px;
+}
+
+.content-step {
+  margin-left: 170px;
+  margin-top: 105px;
+}
+
+.flex-item-step {
+  display: flex;
+  align-items: center;
+  column-gap: 58px;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+.progress-container-step {
+  text-align: center;
+}
+
+.dot-1 {
+  position: absolute;
+  top: -5px;
+  left: 109px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffac30;
+}
+.dot-2 {
+  position: absolute;
+  top: 36px;
+  left: 200px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffac30;
+}
+.dot-3 {
+  position: absolute;
+  top: 175px;
+  left: 209px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffac30;
+}
+.dot-4 {
+  position: absolute;
+  top: 228px;
+  left: 118px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffac30;
+}
+.dot-5 {
+  position: absolute;
+  top: 175px;
+  left: 15px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffac30;
+}
+.dot-6 {
+  position: absolute;
+  top: 36px;
+  left: 23px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffac30;
+}
+.circle-progress-step {
+  position: relative;
+  width: 235px;
+  height: 235px;
+  margin: 20px auto;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+
+.progress-ring__circle-step {
+  stroke: #ff9900;
+  stroke-width: 2;
+  fill: transparent;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.progress-value-step {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-family: Bruno Ace;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.button-step {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

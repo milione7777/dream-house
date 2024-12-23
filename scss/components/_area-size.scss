@@ -1,0 +1,249 @@
+.area-size {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(/img/section-4.png);
+  margin: 0 auto;
+  padding-top: 185px;
+}
+
+.container-area-size {
+  display: flex;
+}
+
+.form-size {
+  bottom: 0;
+}
+
+.position-content-area {
+  display: block;
+}
+
+.title-area-size {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 4px;
+  margin-top: 96px;
+  margin-left: 431px;
+}
+
+.border-m2 {
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+}
+
+.significance-border {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 10%;
+  text-align: center;
+  width: 250px;
+  height: 35px;
+  margin-bottom: 16px;
+}
+
+.list-content-size {
+  display: flex;
+  align-items: center;
+}
+
+.list-content-size {
+  margin-left: 168px;
+}
+
+.name-size {
+  color: rgb(255, 255, 255);
+  font-family: Bruno Ace;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+
+.list-size {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 100px;
+}
+
+.position-list-eclipse {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.eclipse {
+  width: 8px;
+  height: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50%;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.extras {
+  text-align: center;
+}
+
+.elites {
+  width: 175px;
+}
+
+.img-size {
+  margin-top: 70px;
+  margin-left: 28px;
+}
+
+.price-uan {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 2px;
+  align-items: center;
+  margin-left: 39px;
+}
+
+.price {
+  align-items: center;
+  display: flex;
+  margin-top: 70px;
+  margin-left: 29px;
+}
+
+.price-number {
+  color: rgb(255, 255, 255);
+  font-family: Bruno Ace;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.position-area:hover .list-elite,
+.position-area-2:hover .list-vip,
+.position-area-3:hover .list-extra {
+  background-color: #ffac30;
+}
+
+.position-area:hover .eclipse-elite,
+.position-area-2:hover .eclipse-vip,
+.position-area-3:hover .eclipse-extra {
+  background: #ffac30;
+}
+
+.position-area:hover .name-size.elites,
+.position-area-2:hover .name-size.vips,
+.position-area-3:hover .name-size.extras {
+  color: #ffac30;
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.progress-container {
+  text-align: center;
+}
+
+.circle-progress {
+  position: relative;
+  width: 235px;
+  height: 235px;
+  margin: 20px auto;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+  stroke: #ff9900;
+  stroke-width: 2;
+  fill: transparent;
+  stroke-dasharray: 440; /* Довжина кола: 2 * π * r (2 * 3.14 * 70) */
+  stroke-dashoffset: 440;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.progress-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-family: Bruno Ace;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.option {
+  background: #444;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.option:hover {
+  background: #ff9900;
+}
+.progress-dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9900;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 1s ease-in-out, opacity 0.5s;
+  opacity: 0; /* Спочатку приховано */
+}
+
+.dot {
+  position: absolute;
+  top: -5px;
+  left: 109px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(255, 172, 48);
+}

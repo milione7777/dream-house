@@ -1,0 +1,109 @@
+.hero {
+  margin-top: 174px;
+    width: 1920px;
+  height: 886px;
+}
+
+.container-hero {
+  display: flex;
+  align-items: start;
+}
+
+.item-sidebar {
+  width: 50px;
+}
+
+.text-sidebar {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.5em;
+  margin-left: 15px;
+}
+
+.border-hero {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  width: 1px;
+  height: 154px;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.svg-list {
+  margin-left: 10px;
+  margin-top: 81px;
+}
+
+.svg-item + .svg-item {
+  margin-top: 39px;
+}
+
+.slogan {
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.form {
+  position: absolute;
+  right: 0;
+  width: 740px;
+  height: 380px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-top: 505px;
+  padding: 85px 120px;
+  display: block;
+  bottom: 0;
+}
+
+.form-input {
+  border: none;
+  width: 100%;
+  width: 253px;
+  height: 65px;
+}
+
+.form-input::placeholder {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+.form-input-item::after {
+  content: " ";
+  width: 500px;
+  height: 1px;
+  display: block;
+  position: relative;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.form-input-item + .form-input-item {
+  margin-top: 10px;
+}
+
+.send {
+  margin-top: 43px;
+  display: flex;
+  align-items: center;
+}
+
+.text-send {
+  color: rgb(255, 172, 48);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 45%;
+  text-align: left;
+  margin-right: 50px;
+}
+

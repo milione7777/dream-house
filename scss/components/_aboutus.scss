@@ -1,0 +1,70 @@
+.about-us {
+  background-image: url(/img/section-2.png);
+  width: 1920px;
+  height: 1080px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.about-us-container {
+  align-items: center;
+  display: flex;
+}
+
+.title-about-us {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 8px;
+  width: 536px;
+  text-align: center;
+  margin-left: 560px;
+  margin-top: 34px;
+}
+
+.list-about-content {
+  display: flex;
+  column-gap: 159px;
+  margin-left: 209px;
+  margin-top: 111px;
+}
+
+.title-about-content {
+  color: rgb(255, 255, 255);
+  font-family: Bruno Ace;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subtitle-about-content {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.text-more {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 45%;
+}
+
+
+.more-list {
+  margin-top: 410px;
+  margin-left: 277px;
+  display: flex;
+  column-gap: 25px;
+}
