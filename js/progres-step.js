@@ -74,9 +74,13 @@ function setProgress(step) {
   }
 }
 
-function incrementProgress() {
-  if (currentStep < totalSteps) {
-    setProgress(currentStep);
-    currentStep++;
+document.addEventListener("keydown", (event) => {
+  if (event.code === "Space") {
+    event.preventDefault();
+
+    if (currentStep < totalSteps) {
+      setProgress(currentStep);
+      currentStep++;
+    }
   }
-}
+});

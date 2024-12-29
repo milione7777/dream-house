@@ -24,7 +24,7 @@ function setProgress(percent, price) {
   circle.style.strokeDashoffset = offset; // Анімація кола
   progressValue.textContent = `${percent}`;
   priceElement.textContent = price; // Оновлення ціни
-  counterElement.textContent = percent; // Оновлення лічильника
+  counterElement.textContent = percent;
 
   // Логіка для показу точки
   if (percent < 100) {
@@ -55,3 +55,4 @@ extraBtn.addEventListener("click", () => setProgress(25, "8 000 000"));
 
 // Ініціалізація
 document.addEventListener("DOMContentLoaded", () => setProgress(0, "0"));
+
