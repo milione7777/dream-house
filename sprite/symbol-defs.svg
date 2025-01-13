@@ -1,5 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-left-click" viewBox="0 0 25 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.0867" d="M0.574 0.866l22.954 15.129-22.954 15.129"></path>
+</symbol>
+<symbol id="icon-right-click" viewBox="0 0 25 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.0867" d="M24.843 31.124l-22.954-15.129 22.954-15.129"></path>
+</symbol>
 <symbol id="icon-youtube" viewBox="0 0 46 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.5" d="M44.565 4.992c0.171 0.661 0.32 1.493 0.427 2.496 0.171 1.003 0.277 2.005 0.341 3.008 0.043 0.939 0.064 1.835 0.064 2.667 0.064 0.832 0.085 1.515 0.085 2.069v0.768c0 4.992-0.299 8.683-0.917 11.072-0.277 0.939-0.768 1.771-1.493 2.496s-1.579 1.237-2.581 1.515c-1.067 0.277-3.051 0.491-5.995 0.661-2.944 0.107-5.653 0.192-8.085 0.256h-3.669c-9.493 0-15.424-0.32-17.749-0.917-2.176-0.619-3.52-1.963-4.096-4.011-0.277-1.045-0.491-2.496-0.661-4.331-0.107-1.899-0.192-3.477-0.235-4.757v-1.984c0-4.949 0.299-8.619 0.896-11.008 0.277-1.003 0.789-1.856 1.515-2.581s1.579-1.237 2.581-1.515c1.045-0.277 3.051-0.469 5.995-0.576 2.944-0.171 5.632-0.277 8.085-0.32h3.669c9.493 0 15.424 0.299 17.749 0.896 1.003 0.277 1.856 0.789 2.581 1.515s1.216 1.579 1.493 2.581zM18.069 22.827l11.925-6.827-11.925-6.763v13.589z"></path>
 </symbol>

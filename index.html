@@ -34,14 +34,16 @@
                   <a href="#">
                     <p class="number number-nav">+38 (097) 987 78 88</p>
                   </a>
+                </li> 
+                <li class="hero-item">
+                  <p class="call call-nav">REQUEST FOR A CALL</p>
                 </li>
                 <li class="hero-item">
-                  <p class="call">REQUEST FOR A CALL</p>
-                </li>
-                <li class="hero-item">
-                  <svg class="call-svg" width="80" height="80">
-                    <use href="./sprite/symbol-defs.svg#icon-call"></use>
-                  </svg>
+                  <button id="call" class="call-all">
+                    <svg class="call-svg" width="80" height="80">
+                      <use href="./sprite/symbol-defs.svg#icon-call"></use>
+                    </svg>
+                  </button>
                 </li>
               </ul>
             </div>
@@ -98,7 +100,7 @@
               <ul class="list-contnt-nav">
                 <li class="item-contnt-nav">
                   <p class="text-contant-nav">STYLES OF RENNOVATION</p>
-                  <a class="svg-link-nav" href="#">
+                  <a class="svg-link-nav" href="#class-house">
                     <svg width="135" height="21">
                       <use
                         href="./sprite/symbol-defs.svg#icon-arrow-yelow"
@@ -109,7 +111,7 @@
                 <div class="border-nav-content"></div>
                 <li class="item-contnt-nav">
                   <p class="text-contant-nav position">COSTS</p>
-                  <a class="svg-link-nav" href="#">
+                  <a class="svg-link-nav" href="#area-size">
                     <svg width="135" height="21">
                       <use
                         href="./sprite/symbol-defs.svg#icon-arrow-yelow"
@@ -122,7 +124,7 @@
                   <p class="text-contant-nav width-text-nav">
                     6 STEPS <br />TO DREAM HOUSE
                   </p>
-                  <a class="svg-link-nav" href="#">
+                  <a class="svg-link-nav" href="#step">
                     <svg width="135" height="21">
                       <use
                         href="./sprite/symbol-defs.svg#icon-arrow-yelow"
@@ -133,7 +135,7 @@
                 <div class="border-nav-content"></div>
                 <li class="item-contnt-nav">
                   <p class="text-contant-nav">ADDITIONAL SERVICES</p>
-                  <a class="svg-link-nav" href="#">
+                  <a class="svg-link-nav" href="#home-accessories">
                     <svg width="135" height="21">
                       <use
                         href="./sprite/symbol-defs.svg#icon-arrow-yelow"
@@ -204,7 +206,7 @@
               <p class="call">REQUEST FOR A CALL</p>
             </li>
             <li class="hero-item" id="call">
-              <button id="call">
+              <button id="call" class="call-all">
                 <svg class="call-svg" width="80" height="80">
                   <use href="./sprite/symbol-defs.svg#icon-call"></use>
                 </svg>
@@ -420,7 +422,7 @@
           </div>
         </section>
       </section>
-      <section data-section="3" class="class-house page">
+      <section id="class-house" data-section="3" class="class-house page">
         <ul class="class-list">
           <li
             class="class-item-1 class-item"
@@ -576,7 +578,7 @@
           </li>
         </ul>
       </section>
-      <section data-section="4" class="area-size page">
+      <section id="area-size" data-section="4" class="area-size page">
         <div class="container container-area-size">
           <ul class="sidebar">
             <li class="item-sidebar">
@@ -723,7 +725,7 @@
           </form>
         </div>
       </section>
-      <section data-section="5" class="step page">
+      <section id="step" data-section="5" class="step page">
         <div class="container container-step">
           <ul class="sidebar">
             <li class="item-sidebar">
@@ -842,7 +844,11 @@
           </ul>
         </form>
       </section>
-      <section data-section="6" class="home-accessories page">
+      <section
+        id="home-accessories"
+        data-section="6"
+        class="home-accessories page"
+      >
         <div class="container container-home">
           <ul class="sidebar">
             <li class="item-sidebar">
@@ -930,7 +936,160 @@
         </div>
       </section>
     </div>
-    <div class="backdrop"></div>
+    <div class="backdrop">
+      <div class="header-container header-nav">
+        <img src="./img/logo.png" alt="logo" />
+        <ul class="header-list modal-list">
+          <li class="hero-item">
+            <p class="call modals">REQUEST FOR A CALL</p>
+          </li>
+          <li class="hero-item">
+            <button id="close" class="modals">
+              <svg class="call-svg" width="80" height="80">
+                <use
+                  href="./sprite/symbol-defsssssssssss.svg#icon-close-modal"
+                ></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="border"></div>
+      <div class="position-modal">
+        <ul class="sidebar sidebar-nav">
+          <li class="item-sidebar">
+            <p class="text-sidebar">APARTAMENT RENOVATION</p>
+          </li>
+          <li class="item-sidebar">
+            <div class="border-hero"></div>
+          </li>
+          <li class="item-sidebar">
+            <ul class="svg-list">
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="form-modal modals">
+          <input
+            class="form-content-modal"
+            id="name"
+            type="text"
+            placeholder="Your name"
+          />
+          <div class="border-modal-form"></div>
+          <p class="error-modal-name">
+            Заполните, пожалуйста, это поле правильно.
+          </p>
+          <input
+            class="form-content-modal"
+            id="tel"
+            type="phone"
+            placeholder="Your phone number"
+          />
+          <div class="border-modal-form-2"></div>
+          <p class="error-modal">Заполните, пожалуйста, это поле.</p>
+          <button id="btn-modal-form" class="order-call-modal">
+            order a call
+            <svg width="135" height="21">
+              <use href="./sprite/symbol-defs.svg#icon-arrow-yelow"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="backdrop-thank">
+      <img class="logo" src="./img/logo.png" alt="" />
+      <div class="position-thank">
+        <ul class="sidebar sidebar-nav modal-side">
+          <li class="item-sidebar">
+            <p class="text-sidebar">APARTAMENT RENOVATION</p>
+          </li>
+          <li class="item-sidebar">
+            <div class="border-hero"></div>
+          </li>
+          <li class="item-sidebar">
+            <ul class="svg-list">
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="svg-item">
+                <a href="#">
+                  <svg width="20" height="20">
+                    <use href="./sprite/symbol-defs.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="list-form-thank">
+          <li>
+            <p class="title-form-thank">
+              СПАСИБО<br />
+              ЗА ВАШУ ЗАЯВКУ!
+            </p>
+          </li>
+          <li>
+            <p class="subtitle-form-thank">
+              Наш менеджер свяжеться с вами в ближайшее время.
+            </p>
+          </li>
+          <li>
+            <a class="btn-form-thank" href="./index.html">
+              ВЕРНУТСЯ НА ГЛАВНУЮ
+              <svg width="135" height="21">
+                <use href="./sprite/symbol-defs.svg#icon-arrow-yelow"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <script src="./js/counter.js" type="module"></script>
     <script src="./js/main.js" type="module"></script>
     <script src="./js/burger.js" type="module"></script>
@@ -939,5 +1098,7 @@
     <script src="./js/replacement.js" type="module"></script>
     <script src="./js/gallery.js" type="module"></script>
     <script src="./js/modal.js" type="module"></script>
+    <script src="./js/error.js" type="module"></script>
+    <script src="./js/modal-thank.js" type="module"></script>
   </body>
 </html>

@@ -29,7 +29,7 @@
     url("./../img/elite.png");
   width: 640px;
   height: 1080px;
-  padding-top: 200px;
+  padding-top: 210px;
 }
 
 .class-item-2 {
@@ -124,11 +124,16 @@
 }
 
 .content-classes {
+  display: none;
   opacity: 0;
 }
 
 .class-item:focus .content-classes {
   opacity: 1;
+}
+
+.class-item:hover .content-classes {
+  display: block;
 }
 
 .content-classes {

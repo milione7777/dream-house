@@ -1,0 +1,11 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-close-modal" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 28c-6.627 0-12-5.373-12-12s5.373-12 12-12c6.627 0 12 5.373 12 12s-5.373 12-12 12z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4" d="M16 31.8c-8.726 0-15.8-7.074-15.8-15.8s7.074-15.8 15.8-15.8c8.726 0 15.8 7.074 15.8 15.8s-7.074 15.8-15.8 15.8z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.15" d="M16 24c-4.418 0-8-3.582-8-8s3.582-8 8-8c4.418 0 8 3.582 8 8s-3.582 8-8 8z"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8" d="M20.511 20.777l-9.294-9.294"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8" d="M11.216 20.703l9.294-9.294"></path>
+</symbol>
+</defs>
+</svg>

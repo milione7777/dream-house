@@ -1,0 +1,271 @@
+.body{
+  justify-content: left;
+}
+
+.sliders {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; /* Контейнер займёт ширину всех слайдов */
+  overflow: hidden;
+}
+.slide {
+  flex-shrink: 0;
+  width: 100%; /* Каждый слайд будет на всю ширину контейнера */
+  height: 100%;
+}
+
+.slider-1 {
+  position: relative;
+  padding-top: 210px;
+  padding-right: 162px;
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../../img/elite-1.png");
+}
+
+.slider-2 {
+  position: relative;
+  padding-top: 210px;
+  padding-right: 162px;
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../../img/elite-2.png");
+}
+
+.number-elite {
+  margin-left: 128px;
+}
+
+.sidebar-elite {
+  margin-top: 0;
+}
+
+.content-slide {
+  display: flex;
+  align-items: start;
+}
+
+.back_to-style {
+  margin-left: auto;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 3px;
+  margin-top: -45px;
+}
+
+.list-slider-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 228px;
+  display: flex;
+  align-items: center;
+}
+
+.borders-slide-elite {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  width: 260px;
+}
+
+.left-bor {
+  margin-left: 10px;
+  margin-right: 38px;
+}
+
+.right-bor {
+  margin-left: 38px;
+  margin-right: 10px;
+}
+
+.slide-number {
+  color: rgb(255, 172, 48);
+  font-family: Bruno Ace;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  margin-left: auto;
+  width: 70px;
+}
+
+.number-of-slides {
+  color: rgb(255, 255, 255);
+  font-family: Bruno Ace;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-left: 30px;
+}
+
+.touch-left-bottom {
+  position: relative;
+}
+
+.touch-dot-left {
+  left: 0;
+}
+
+.border-left-bootom.position-bottom {
+  left: 136px;
+  top: -21px;
+}
+
+.title-touch {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  width: 135px;
+  margin-bottom: 18px;
+}
+
+.dots-bottom {
+  position: absolute;
+  right: -95px;
+  top: -64px;
+  animation: animate-dots 3s ease forwards;
+  animation-delay: 0.9s;
+}
+
+.border-slider-tup {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transform: rotate(30deg);
+  width: 185px;
+}
+
+.touch-dot-left {
+  margin-left: revert;
+}
+
+.touch-right-top {
+  position: relative;
+}
+
+.right-txt {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.position-servise-1 {
+  position: absolute;
+  left: 43.5%;
+  top: 16.8%;
+}
+
+.position-servise-2 {
+  position: absolute;
+  left: 25.5%;
+  top: 28%;
+}
+.position-servise-3 {
+  position: absolute;
+  top: 40.5%;
+  right: 54.5%;
+}
+.position-servise-4 {
+  position: absolute;
+  right: 33%;
+  top: 45.3%;
+}
+.position-servise-5 {
+  position: absolute;
+  top: 66%;
+  right: 51.5%;
+}
+
+.border-left-bootom {
+  position: absolute;
+  left: -75px;
+  top: 21px;
+  border: 1px solid rgb(255, 172, 48);
+  transform: rotate(150deg);
+  width: 83px;
+  animation: animate-border-left 0.5s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.border-right-left {
+  width: 140px;
+  border: 1px solid rgb(255, 172, 48);
+  animation: animate-border-right 0.5s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.dots-elite {
+  position: absolute;
+  right: 0;
+  width: 9px;
+  height: 9px;
+  background: rgb(255, 172, 48);
+  border-radius: 50%;
+  margin-top: -5px;
+  animation: animate-dots-elite 1s ease forwards;
+  animation-delay: 0s;
+}
+
+.border-right-left {
+  margin-left: 2px;
+}
+
+.dots {
+  position: absolute;
+  left: -91px;
+  top: 19px;
+  animation: animate-dots 3s ease forwards;
+  animation-delay: 0.9s;
+}
+
+.border-right-bootom {
+  position: absolute;
+  right: -77px;
+  top: 20.6px;
+  border: 1px solid rgb(255, 172, 48);
+  transform: rotate(30deg);
+  width: 83px;
+  animation: animate-border-left 0.5s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.dots-bottom.touch-dot-bottom {
+  top: 19px;
+}
+
+@keyframes animate-border-right {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes animate-border-left {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 83px;
+  }
+}
+
+@keyframes animate-dots-elite {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animate-dots {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

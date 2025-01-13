@@ -2,7 +2,7 @@
   background-image: url(./../img/section-7.png);
   width: 1920px;
   height: 1080px;
-  padding-top: 200px;
+  padding-top: 210px;
   position: relative;
 }
 
@@ -17,7 +17,7 @@
   background-image: url(./../img/foto-1.png);
   width: 580px;
   height: 520px;
-  padding-top: 200px;
+  padding-top: 210px;
   padding-left: 175px;
 }
 .foto-2 {
@@ -99,6 +99,7 @@
 .item-img-home:hover::after {
   background-color: rgba(0, 0, 0, 0); /* Робимо шар повністю прозорим */
 }
+
 
 .item-img-home:hover .title-text-home {
   display: block;

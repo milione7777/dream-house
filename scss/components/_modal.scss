@@ -13,6 +13,180 @@
   animation: burgerAnimation 0.4s;
 }
 
-.backdrop-open {
-    display: block;
+.backdrop.open {
+  display: block;
+}
+
+.close-nav {
+  display: none;
+}
+
+.modal-list {
+  margin-left: 378px;
+}
+
+.position-modal {
+  display: flex;
+  align-items: center;
+}
+
+#close {
+  border: none;
+  background-color: transparent;
+}
+
+.form-modal {
+  position: relative;
+  left: 100%;
+}
+
+.form-content-modal {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  width: 253px;
+  height: 65px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form-content-modal::placeholder {
+  color: white;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  background-color: transparent;
+}
+
+.border-modal-form {
+  content: " ";
+  width: 500px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 60px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.border-modal-form-2 {
+  content: " ";
+  width: 500px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 76px;
+}
+
+.border-modal-form-2.red {
+  background-color: red;
+}
+.border-modal-form.red {
+  background-color: red;
+}
+
+.order-call-modal {
+  margin-top: 14px;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 172, 48);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 16px;
+}
+
+.error-modal {
+  color: rgb(255, 66, 66);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+.error-modal-name {
+  color: rgb(255, 66, 66);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.backdrop-thank {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  padding-top: 35px;
+  backdrop-filter: blur(60px);
+  background: rgba(0, 0, 0, 0.4);
+  animation: burgerAnimation 0.4s;
+}
+
+.logo {
+  margin-left: 65px;
+}
+
+.backdrop-thank.opens {
+  display: block;
+}
+
+.modal-side {
+  margin-top: 98px;
+}
+
+.position-thank {
+  display: flex;
+  align-items: center;
+}
+
+.list-form-thank {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.title-form-thank {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.subtitle-form-thank {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 250px;
+}
+
+.btn-form-thank {
+  color: rgb(255, 172, 48);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  border: none;
+  letter-spacing: 10px;
+  background-color: transparent;
 }
