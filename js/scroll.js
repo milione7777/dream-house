@@ -18,6 +18,29 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Коли слайд потрапляє у видиму область
+          slides.forEach((slide, index) => {
+            if (slide === entry.target) {
+              currentIndex = index; // Оновлюємо поточний індекс
+              updateSlideNumber(); // Оновлюємо номер слайда
+              slide.classList.add("visible"); // Додаємо клас для появи
+            } else {
+              slide.classList.remove("visible"); // Приховуємо інші слайди
+            }
+          });
+        }
+      });
+    },
+    {
+      root: null, // Спостерігаємо у всій видимій області
+      threshold: 0.5, // Слайд вважається видимим, якщо 50% його площі у вікні
+    }
+  );
+
   // Додаємо слухач для прокрутки
   document
     .querySelector(".container-section")
